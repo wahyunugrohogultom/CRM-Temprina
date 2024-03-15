@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: url("logo.png") no-repeat;
+    background-size: 500px 300px;
+	background-position: 83%;
+	background-attachment: fixed;
+    overflow: hidden;
+}
+::selection{
+    background: rgba(26, 188, 156, 0.3);
+}
+.container{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+    margin-left: 130px;
+}
+.wrapper{
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 6px 12px 2px rgba(0,0,0,0.1);
+} 
+.wrapper .title{
+    height: 90px;
+    background: #144be4;
+    padding-left: 0px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper form{
+    padding: 30px 20px 25px 25px;
+}
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    transition: all 0.3 ease;
+}
+form .row input:focus{
+    border-color: #144be4;
+    box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+form .row input::placeholder{
+    color: #999;
+}
+.wrapper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100px;
+    color: black;
+    font-size: 18px;
+    display: flex;
+    align-content: center;
+    bottom: -67px;
+    justify-content: center;
+}
+.wrapper form .pass{
+    margin: -8px 0 20px 0;
+}
+.wrapper form .pass a{
+    color: #144be4;
+    font-size: 17px;
+    text-decoration: none;
+}
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+.wrapper form .button a input{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #144be4;
+    border: 1px solid #144be4;
+    cursor: pointer;
+}
+form .button a input:hover{
+    background: #4070F4;
+}
+.wrapper form .signup-link a{
+    color: #144be4;
+    text-decoration: none;
+}
+form .signup-link a:hover{
+    text-decoration: underlines;
+}
